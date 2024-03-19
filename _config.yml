@@ -1,1 +1,8 @@
-theme: jekyll-theme-minimal
+title: Nazwa Twojej Strony
+description: Krótki opis Twojej strony
+
+# Minimal Mistakes settings
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
