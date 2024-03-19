@@ -1,46 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nazwa Twojej Firmy</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="images/logo.png" alt="Logo firmy">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#uslugi">Usługi</a></li>
-                <li><a href="#o-firmie">O firmie</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+---
+layout: default
+---
 
-    <section id="banner">
-        <!-- Tutaj umieść banner główny -->
-        <img src="images/banner.jpg" alt="Banner główny">
-    </section>
+# Witaj na stronie Twojej Firmy!
 
-    <section id="uslugi">
-        <!-- Sekcja z opisem usług -->
-    </section>
+Witamy na naszej stronie, gdzie oferujemy usługi związane z wyceną nieruchomości, wytwarzaniem świadectw energetycznych dla budynków oraz projektowaniem budowlanym.
 
-    <section id="o-firmie">
-        <!-- Sekcja z informacjami o firmie -->
-    </section>
+## Usługi
 
-    <section id="kontakt">
-        <!-- Sekcja z formularzem kontaktowym -->
-    </section>
+1. Wycena nieruchomości
+2. Świadectwa energetyczne
+3. Projektowanie budowlane
 
-    <footer>
-        <!-- Stopka strony -->
-    </footer>
-    
-    <script src="js/script.js"></script>
-</body>
-</html>
+## O firmie
+
+Nasza firma działa na rynku od wielu lat, zapewniając wysokiej jakości usługi dla naszych klientów.
+
+## Kontakt
+
+Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach.
