@@ -1,0 +1,38 @@
+baseURL = "https://example.com/"
+languageCode = "pl-pl"
+title = "Jan Kowalski - Rzeczoznawca Majątkowy"
+theme = "ananke"
+
+[params]
+  author = "Jan Kowalski"
+  description = "Profesjonalne usługi rzeczoznawcy majątkowego i wystawianie świadectw energetycznych."
+  mainSections = []
+  dateFormat = "02-01-2006"
+  logo = "images/profile.jpg"
+  disableBreadcrumbs = false
+  enableSocial = true
+  socialShare = true
+  recent_copy = "Usługi"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "O mnie"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Usługi"
+    url = "/services/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Kontakt"
+    url = "/contact/"
+    weight = 3
+
+[params.social]
+  github = "https://github.com/example"
+  linkedin = "https://linkedin.com/in/example"
